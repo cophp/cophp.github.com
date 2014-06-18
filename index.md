@@ -1,46 +1,35 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: 三人行，必有我师焉。
+tagline:
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+##Profile        
+> Name :    3phpers     
+> Email :   3phpers@gmail.com  
+> Major :   Computer Science     
+> City :    Shanghai, China  
 
-## Update Author Attributes
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+##学习PHP，一起来！ 
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
 
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
+![test](php_together.gif)
+ 
+##Posts List
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
 
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
 
 
+
+*****     
+
+这里的文章均采用<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh" target="_blank">知识共享3.0许可协议</a>进行版权许可。您可以自由复制或转载，但必须注明来源。您不得将其用于商业目的。    
+谢谢您的关注 :)
