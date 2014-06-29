@@ -14,17 +14,19 @@ tagline:
 
 
 
-##学习PHP，一起来！ 
-
-
-![test](php_together.gif)
- 
 ##Posts List
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
+
+
+##学习PHP，一起来！ 
+
+<img src="php_together.jpeg" alt="学习PHP，一起来！" height="297" width="525"/>
+
+图片来自：<a href="http://www.duitang.com/people/mblog/83589456/detail/">堆糖网</a>
 
 
 
