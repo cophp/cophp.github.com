@@ -22,7 +22,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,t
 
 body {
 	font-family: '微软雅黑' !important;
-	background-color: #3C3838;
+	background-color: whitesmoke;
 	background-position: center -18em;
 	background-repeat: repeat-x; 
 }
@@ -71,7 +71,7 @@ sup { line-height: 1ex; }
 }
 
 #page, #disqus_thread {
-	background: #f8f1e2;
+	background: white;
 /*	background-image: url(grid.png); */
 	padding: 3em 3em 1.5em 3em;
 	border: 1px solid #ccc;
