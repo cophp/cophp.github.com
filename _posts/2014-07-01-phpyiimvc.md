@@ -14,17 +14,17 @@ PHP是一种通用开源脚本语言。语法吸收了C语言、Java和Perl的�
 
 
 #####目前PHP框架类型很多，如下图所示：
-<img src="framework.png" alt="xxxxxx"/>
+<img src="framework.png" alt="xxxxxx" style="width:600px;"/>
 
 
 #Yii框架介绍
 #####今天分享下工作中用到的Yii框架以及MVC编程。
 
 Yii是一个高性能的，适用于开发WEB2.0应用的PHP框架。Yii几乎拥有了所有的特性，包括MVC、DAO/ActiveRecord、I18N/L10N、caching、基于JQuery的AJAX支持、用户认证和基于角色的访问控制、脚手架、输入验证、部件、事件、主题化以及Web服务等等。Yii采用严格的OOP编写，Yii使用简单，非常灵活，具有很好的可扩展性。名字Yii（读音是Yee or [ji:]，应该就是“易”的读音 ）代表的是容易(easy)，高效(efficient)和可扩展(extensible)。
-<img src="yii.png" alt="xxxxxx"/>
+<img src="yii.png" alt="xxxxxx" style="width:600px;"/>
 
 #####其代码树形目录结构如下：
-<img src="tree1.png" alt="xxxxxx"/>
+<img src="tree1.png" alt="xxxxxx" style="width:600px;"/>
 <img src="tree2.png" alt="xxxxxx"/>
 
 Yii 实现了 Web  编程中广为采用的“模型-视图-控制器”(MVC)设计模式。MVC 致力于分离业务逻辑和用户界面，这样开发者可以很容易地修改某个部分而不影响其它。在 MVC 中，模型表现信息（数据）和业务规则；视图包含用户界面中用到的元素，比如文本、表单输入框；控制器管理模型和视图间的交互。除了 MVC，Yii 还引入了一个叫做 application 的前端控制器，它表现整个请求过程的运行环境。Application 接收用户的请求并把它分发到合适的控制器作进一步处理。
@@ -112,4 +112,4 @@ record active record 类。
 
 以上每个步骤，有可能需要编写测试案例来测试。
 
-####PS以上内容整理自百度百科，yii框架中文手册教程，以及其他网页资料
+####PS: 以上内容整理自百度百科，yii框架中文手册教程，以及其他网页资料
