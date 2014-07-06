@@ -2,6 +2,7 @@
 layout: page
 title: 为什么会有这个博客？
 tagline:
+tags: [About,博客]
 ---
 {% include JB/setup %}
 
